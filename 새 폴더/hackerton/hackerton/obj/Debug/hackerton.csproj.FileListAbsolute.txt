@@ -1,0 +1,12 @@
+C:\Users\csi2\Desktop\새 폴더\hackerton\hackerton\bin\Debug\hackerton.exe.config
+C:\Users\csi2\Desktop\새 폴더\hackerton\hackerton\bin\Debug\hackerton.exe
+C:\Users\csi2\Desktop\새 폴더\hackerton\hackerton\bin\Debug\hackerton.pdb
+C:\Users\csi2\Desktop\새 폴더\hackerton\hackerton\obj\Debug\hackerton.csproj.AssemblyReference.cache
+C:\Users\csi2\Desktop\새 폴더\hackerton\hackerton\obj\Debug\hackerton.csproj.SuggestedBindingRedirects.cache
+C:\Users\csi2\Desktop\새 폴더\hackerton\hackerton\obj\Debug\hackerton.Form1.resources
+C:\Users\csi2\Desktop\새 폴더\hackerton\hackerton\obj\Debug\hackerton.Form2.resources
+C:\Users\csi2\Desktop\새 폴더\hackerton\hackerton\obj\Debug\hackerton.Properties.Resources.resources
+C:\Users\csi2\Desktop\새 폴더\hackerton\hackerton\obj\Debug\hackerton.csproj.GenerateResource.cache
+C:\Users\csi2\Desktop\새 폴더\hackerton\hackerton\obj\Debug\hackerton.csproj.CoreCompileInputs.cache
+C:\Users\csi2\Desktop\새 폴더\hackerton\hackerton\obj\Debug\hackerton.exe
+C:\Users\csi2\Desktop\새 폴더\hackerton\hackerton\obj\Debug\hackerton.pdb
