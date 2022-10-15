@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.leveltext = new System.Windows.Forms.TextBox();
             this.levelinputbutton = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -37,26 +36,16 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(154, 100);
+            this.label2.Location = new System.Drawing.Point(230, 113);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(345, 15);
+            this.label2.Size = new System.Drawing.Size(237, 15);
             this.label2.TabIndex = 0;
-            this.label2.Text = "자신의 수준을 e, d, c, b ,a, s 중 골라 입력하시오.";
+            this.label2.Text = "자신의 푸쉬업 갯수를 입력하시오.";
             this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(125, 140);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(417, 15);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "(e : 왕초보, d : 초보, c : 중급, b : 고급, a : 상급, s : 엘리트)";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // leveltext
             // 
-            this.leveltext.Location = new System.Drawing.Point(219, 212);
+            this.leveltext.Location = new System.Drawing.Point(219, 203);
             this.leveltext.Name = "leveltext";
             this.leveltext.Size = new System.Drawing.Size(186, 25);
             this.leveltext.TabIndex = 2;
@@ -64,7 +53,7 @@
             // 
             // levelinputbutton
             // 
-            this.levelinputbutton.Location = new System.Drawing.Point(435, 212);
+            this.levelinputbutton.Location = new System.Drawing.Point(435, 203);
             this.levelinputbutton.Name = "levelinputbutton";
             this.levelinputbutton.Size = new System.Drawing.Size(47, 29);
             this.levelinputbutton.TabIndex = 3;
@@ -77,9 +66,9 @@
             this.ClientSize = new System.Drawing.Size(695, 405);
             this.Controls.Add(this.levelinputbutton);
             this.Controls.Add(this.leveltext);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Name = "Form2";
+            this.Load += new System.EventHandler(this.Form2_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -87,7 +76,6 @@
 
         #endregion
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox leveltext;
         private System.Windows.Forms.Button levelinputbutton;
     }

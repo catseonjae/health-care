@@ -20,33 +20,41 @@ namespace hackerton
         private void levelinputbutton_Click(object sender, System.EventArgs e)
         {
 
-            if (leveltext.Text == "s")
+            if (0<= Convert.ToInt16(leveltext.Text) && 3>=Convert.ToInt16(leveltext.Text))
             {
-                System.IO.File.AppendAllLines(@"C:\Users\csi2\Desktop\새 폴더\hackerton\hackerton\test.txt", new[]{ "1" });
+                System.IO.File.AppendAllLines(@"C:\Users\csi2\Desktop\새 폴더\hackerton\hackerton\test.txt", new[]{ "E" });
             }
-            else if (leveltext.Text == "a")
+            else if (4 <= Convert.ToInt16(leveltext.Text) && 10 >= Convert.ToInt16(leveltext.Text))
             {
-                System.IO.File.AppendAllLines(@"C:\Users\csi2\Desktop\새 폴더\hackerton\hackerton\test.txt", new[] { "2" });
+                System.IO.File.AppendAllLines(@"C:\Users\csi2\Desktop\새 폴더\hackerton\hackerton\test.txt", new[] { "D" });
             }
-            else if (leveltext.Text == "b")
+            else if (11 <= Convert.ToInt16(leveltext.Text) && 30 >= Convert.ToInt16(leveltext.Text))
             {
-                System.IO.File.AppendAllLines(@"C:\Users\csi2\Desktop\새 폴더\hackerton\hackerton\test.txt", new[] { "3" });
+                System.IO.File.AppendAllLines(@"C:\Users\csi2\Desktop\새 폴더\hackerton\hackerton\test.txt", new[] { "C" });
             }
-            else if (leveltext.Text == "c")
+            else if (31 <= Convert.ToInt16(leveltext.Text) && 50 >= Convert.ToInt16(leveltext.Text))
             {
-                System.IO.File.AppendAllLines(@"C:\Users\csi2\Desktop\새 폴더\hackerton\hackerton\test.txt", new[] { "4" });
+                System.IO.File.AppendAllLines(@"C:\Users\csi2\Desktop\새 폴더\hackerton\hackerton\test.txt", new[] { "B" });
             }
-            else if (leveltext.Text == "d")
+            else if (51 <= Convert.ToInt16(leveltext.Text) && 100 >= Convert.ToInt16(leveltext.Text))
             {
-                System.IO.File.AppendAllLines(@"C:\Users\csi2\Desktop\새 폴더\hackerton\hackerton\test.txt", new[] { "5" });
+                System.IO.File.AppendAllLines(@"C:\Users\csi2\Desktop\새 폴더\hackerton\hackerton\test.txt", new[] { "A" });
             }
-            else if (leveltext.Text == "e")
+            else if (101<= Convert.ToInt16(leveltext.Text))
             {
-                System.IO.File.AppendAllLines(@"C:\Users\csi2\Desktop\새 폴더\hackerton\hackerton\test.txt", new[] { "6" });
+                System.IO.File.AppendAllLines(@"C:\Users\csi2\Desktop\새 폴더\hackerton\hackerton\test.txt", new[] { "S" });
             }
+            Form3 first = new Form3();
+            this.Hide();
+            first.Show();
         }
 
         private void level_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
         {
 
         }
