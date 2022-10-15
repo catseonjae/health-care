@@ -10,3 +10,4 @@ C:\Users\csi2\Desktop\새 폴더\hackerton\hackerton\obj\Debug\hackerton.csproj.
 C:\Users\csi2\Desktop\새 폴더\hackerton\hackerton\obj\Debug\hackerton.csproj.CoreCompileInputs.cache
 C:\Users\csi2\Desktop\새 폴더\hackerton\hackerton\obj\Debug\hackerton.exe
 C:\Users\csi2\Desktop\새 폴더\hackerton\hackerton\obj\Debug\hackerton.pdb
+C:\Users\csi2\Desktop\새 폴더\hackerton\hackerton\obj\Debug\hackerton.Form3.resources
